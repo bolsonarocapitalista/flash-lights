@@ -26,7 +26,7 @@ criaCartao(
     criaCartao(
     'Ingles',
     'What means "idk" ?',
-    'I don''t know')
+    'I dont know')
     
     criaCartao(
     'Programação',
