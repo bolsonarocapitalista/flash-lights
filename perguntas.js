@@ -1,10 +1,10 @@
 criaCartao(
-    'historia',
+    'Historia',
     'Qual foi o presidente do Brasil em 1930?',
     'Getulio Vargas')
     
     criaCartao(
-    'historia',
+    'Historia',
     'Em que ano se iniciou a primeira guerra mundial?',
     'Em 1914');
     
@@ -14,7 +14,7 @@ criaCartao(
     'É uma escola literaria que estuda a objetividade dos fatos')
     
     criaCartao(
-    'historia',
+    'Historia',
     'Qual foi o primeiro presidente do Brasil?',
     'Marechal Deodoro da Fonseca')
     
