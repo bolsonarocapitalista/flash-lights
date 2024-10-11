@@ -66,7 +66,7 @@ criaCartao(
     criaCartao(
     'Fisica',
     'Qual é a unidade de medida da força no sistema internacional ?',
-    'Newton(N)'
+    'Newton(N)')
     
     criaCartao(
     'Portugues',
