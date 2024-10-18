@@ -69,6 +69,6 @@ transition: transform 300ms ease-in-out;
 
 }
 
-.pergunta-cartao, .resposta-cartao{
+.pergunta-cartao,.resposta-cartao{
     backface-visibility: hidden;
 }
