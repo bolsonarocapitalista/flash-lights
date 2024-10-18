@@ -32,7 +32,7 @@ gap: 3rem;
 }
 
 .cartao{
-    margin: 1rem;
+    margin: 2rem;
     height: 25rem;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
