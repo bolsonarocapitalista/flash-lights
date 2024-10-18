@@ -43,6 +43,7 @@ background-color:var(--cartao-frente);
 text-align: center;
 height: 100%;
 color: var(--preto);
+border-radius: 25%;
 }
 
 .conteudo-cartao h3{
