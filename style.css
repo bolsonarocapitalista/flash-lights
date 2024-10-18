@@ -55,6 +55,7 @@ transition: transform 300ms ease-in-out;
     margin: 0.6rem;
     padding:0.6rem;
     border-radius: 25%;
+    backface-visibility: hidden;
 }
 
 .conteudo-cartao p{
