@@ -60,5 +60,5 @@ color: var(--preto);
 }
 
 .cartao:hover .conteudo-cartao{
-    transform: rotateX(180deg);
+    transform: rotateZ(180deg);
 }
