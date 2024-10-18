@@ -56,5 +56,5 @@ color: var(--preto);
 .conteudo-cartao p{
     margin-top: 2rem;
     padding:2rem;
-    
+    font-size: 1.4vw;
 }
