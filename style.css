@@ -52,7 +52,7 @@ border-radius: 5%;
     border: 2px solid var(--destaque);
     margin: 0.6rem;
     padding:0.6rem;
-    border-radius: 5%;
+    border-radius: 25%;
 }
 
 .conteudo-cartao p{
