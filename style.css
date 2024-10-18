@@ -1,85 +1,86 @@
-:root{
-    --fundo:#2dab2d;
-    --cartao-frente:#1ff8d4;
-    --cartao-verso:#055e8d;
-    --destaque:#fff200;
-    --preto:#000000;
-    --branco:#ffffff;
+:root {
+    --fundo: #2dab2d;
+    --cartao-frente: #1ff8d4;
+    --cartao-verso: #055e8d;
+    --destaque: #fff200;
+    --preto: #000000;
+    --branco: #ffffff;
 
 }
 
-body{
+body {
     background-color: var(--fundo);
     margin: 0%;
 }
 
-footer{
+footer {
     background-color: var(--preto);
-    position:fixed;
+    position: fixed;
     bottom: 0%;
     color: var(--branco);
     width: 100%;
     text-align: center;
 }
 
-#container{
-display: flex;
-flex-wrap: wrap;
-justify-content:space-between ;
-padding: 4rem;
-gap: 3rem;
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 4rem;
+    gap: 3rem;
 
 }
 
-.cartao{
+.cartao {
     margin: 2rem;
     height: 25rem;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
 }
 
-.conteudo-cartao{
-background-color:var(--cartao-frente);
-text-align: center;
-height: 100%;
-color: var(--preto);
-border-radius: 5%;
-transform-style: preserve-3d;
-transition: transform 300ms ease-in-out;
+.conteudo-cartao {
+    background-color: var(--cartao-frente);
+    text-align: center;
+    height: 100%;
+    color: var(--preto);
+    border-radius: 5%;
+    transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out;
 }
 
-.conteudo-cartao h3{
+.conteudo-cartao h3 {
     position: absolute;
     text-align: left;
     border: 2px solid var(--destaque);
     margin: 0.6rem;
-    padding:0.6rem;
+    padding: 0.6rem;
     border-radius: 25%;
     backface-visibility: hidden;
 }
 
-.conteudo-cartao p{
+.conteudo-cartao p {
     margin-top: 4rem;
-    padding:2rem;
+    padding: 2rem;
     font-size: 1.4vw;
 }
 
-.cartao:hover .conteudo-cartao{
+.cartao:hover .conteudo-cartao {
     transform: rotateY(180deg);
 
 }
 
-.pergunta-cartao, .resposta-cartao{
+.pergunta-cartao,
+.resposta-cartao {
     backface-visibility: hidden;
     position: absolute;
     height: 100%;
     width: 100%;
 }
 
-.resposta-cartao{
+.resposta-cartao {
     transform: rotateY(180deg);
     font-weight: 700;
     color: var(--destaque);
     border: 2px solid var(--destaque);
-    background-color:var(--cartao-verso) ;
+    background-color: var(--cartao-verso);
 }
