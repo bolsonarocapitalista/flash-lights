@@ -83,4 +83,5 @@ footer {
     color: var(--destaque);
     border: 2px solid var(--destaque);
     background-color: var(--cartao-verso);
+    border-radius: 25%;
 }
