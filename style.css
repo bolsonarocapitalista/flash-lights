@@ -43,7 +43,7 @@ background-color:var(--cartao-frente);
 text-align: center;
 height: 100%;
 color: var(--preto);
-border-radius: 25%;
+border-radius: 5%;
 }
 
 .conteudo-cartao h3{
@@ -52,6 +52,7 @@ border-radius: 25%;
     border: 2px solid var(--destaque);
     margin: 0.6rem;
     padding:0.6rem;
+    border-radius: 5%;
 }
 
 .conteudo-cartao p{
