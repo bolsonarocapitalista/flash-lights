@@ -43,3 +43,11 @@ gap: 3rem;
 text-align: center;
 height: 100%;
 }
+
+.conteudo-cartao h3{
+    position: absolute;
+    text-align: left;
+    border: 1px solid var(--destaque);
+    margin: 0.6rem;
+    padding:0.6rem;
+}
