@@ -8,9 +8,10 @@ function criaCartao(categoria,pergunta,resposta){
     <div class="pergunta-cartao">
         <p>${pergunta}</p>
 
-    </div class="resposta-cartao">
+    </div>
+     <div class="resposta-cartao">
         <p>${resposta}</p>
-        
+        </div>
     </div>
     `
     container.appendChild(cartao);
