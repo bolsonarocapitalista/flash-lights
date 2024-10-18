@@ -81,4 +81,5 @@ transition: transform 300ms ease-in-out;
     font-weight: 700;
     color: var(--destaque);
     border: 2px solid var(--destaque);
+    background-color:var(--cartao-verso) ;
 }
