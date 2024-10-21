@@ -63,4 +63,5 @@ color: var(--branco);
     background-color: var(--branco);
     padding: 2rem;
     text-align: center;
+    color: var(--preto);
 }
