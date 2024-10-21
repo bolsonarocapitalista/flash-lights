@@ -1,3 +1,14 @@
+:root {
+    --fundo: #c6b888;
+    --cartao-frente: #1f120e;
+    --cartao-verso: #633e25;
+    --destaque: #582a2a;
+    --preto: #000000;
+    --branco: #ffffff;
+
+}
+
+
 body {
     background-color: var(--fundo);
     margin: 0%;
