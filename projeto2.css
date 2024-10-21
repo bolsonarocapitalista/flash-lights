@@ -42,6 +42,9 @@ head a{
     gap: 2rem;
     margin:2rem ;
 }
+.cartao {
+    flex-basis: calc(33% - 6rem);
+}
 
 .conteudo-cartao{
     background-color: var(--cartao-frente);
