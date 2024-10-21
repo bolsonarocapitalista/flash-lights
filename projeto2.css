@@ -51,7 +51,7 @@ head a{
     transition: transform 0.2s;
 box-shadow: 2px 2px 2px;
 color: var(--branco);
-border-radius: 5%;
+border-radius: 10%;
 }
 
 .conteudo-cartao:hover{
