@@ -49,6 +49,7 @@ head a{
     border: 1px solid var(--destaque);
     transition: transform 0.2s;
 box-shadow: 2px 2px 2px;
+color: var(--branco);
 }
 
 .conteudo-cartao:hover{
