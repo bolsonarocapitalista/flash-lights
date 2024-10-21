@@ -42,9 +42,7 @@ head a{
     gap: 2rem;
     margin:2rem ;
 }
-.cartao {
-    flex-basis: calc(33% - 6rem);
-}
+
 
 .conteudo-cartao{
     background-color: var(--cartao-frente);
@@ -53,6 +51,7 @@ head a{
     transition: transform 0.2s;
 box-shadow: 2px 2px 2px;
 color: var(--branco);
+border-radius: 5%;
 }
 
 .conteudo-cartao:hover{
