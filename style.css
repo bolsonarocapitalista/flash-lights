@@ -25,8 +25,14 @@ footer {
 header{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: var(--preto);
+    padding: 2rem;
+
+}
+
+head a{
+    color: var(--branco);
 }
 
 #container {
