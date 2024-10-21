@@ -33,6 +33,7 @@ header{
 
 head a{
     color: var(--branco);
+    text-decoration: none;
 }
 
 #container {
