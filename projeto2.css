@@ -60,7 +60,7 @@ color: var(--branco);
 }
 
 .resposta-cartao{
-    background-color: var(--cartao-verso);
+    background-color: var(--branco);
     padding: 2rem;
     text-align: center;
 }
